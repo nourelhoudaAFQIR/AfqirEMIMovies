@@ -1,0 +1,11 @@
+<div class="card h-100" *ngIf="movie">
+  <img class="card-img-top" src="https://image.tmdb.org/t/p/w300{{movie.poster_path}}" alt="..." />
+  <div class="card-body p-4">
+    <div class="text-center">
+      <h5 class="fw-bolder">{{movie.title}}</h5>
+    </div>
+  </div>
+  <div class="card-footer p-4 pt-0 border-top-0 bg-opacity-100">
+    <div class="text-center"><a class="btn btn-outline-warning mt-auto" routerLink="/detail/{{movie.id}}">See the Description</a></div>
+  </div>
+</div>

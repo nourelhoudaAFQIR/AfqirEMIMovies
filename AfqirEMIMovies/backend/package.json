@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "exam angular_ Movie _ AFQIR",
+  "main": "server.js",
+  "scripts": {
+    "start": "node-dev server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nour el houda afqir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-dev": "^8.0.0"
+  }
+}
